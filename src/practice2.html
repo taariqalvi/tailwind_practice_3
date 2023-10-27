@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body class="bg-sky-950 text-center box-border m-0 p-0">
+    <p class="text-white text-xl"> First we have to install this plugin via terminal.</p>
+    <p class="text-white text-xl"> npm install -D @tailwindcss/typography</p>
+    <article class="prose mx-auto bg-sky-800 m-4 p-2">
+        <h1 class="text-red-600 m-0">Tailwind CSS Typography Plugin</h1>
+        <h1 class="m-0">h1 heading - Garlic bread with cheese: What science tells us</h1>
+        <h2 class="m-0">h2 heading with typography plugin</h2>
+        <h3>h3 heading with typography plugin</h3>
+        <p class="text-white">
+            For years parents have espoused the health benefits of eating garlic bread with cheese to their
+            children, with the food earning such an iconic status in our culture that kids will often dress
+            up as warm, cheesy loaf for Halloween.
+        </p>
+        <p class="text-white">
+            But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
+            springing up around the country.
+        </p>
+        <a href="http://tailwindcss.com/docs/typography-plugin" target="_blank"
+            class="block text-2xl p-2 m-4 bg-blue-950 text-white hover:bg-blue-900">Tailwind
+            CSS
+            Docs</a>
+        <p class="text-white text-xl hover:underline hover:underline-offset-4">By using "pros" class we get enabled to
+            use
+            typography plugin
+            in
+            which all the
+            HTML elements comes with their default values of margins and paddings as we use in normal HTML. In
+            above headings, margin is forcefully set to 0.</p>
+    </article>
+
+    <!-- accent-color -->
+    <div class="m-4 p-2 text-white">
+        <label for="accent">accent-color Default</label>
+        <input type="checkbox" name="accent" checked>
+        <br>
+        <label for="accent">accent-color Customized</label>
+        <input type="checkbox" name="accent" class="accent-pink-500" checked>
+    </div>
+
+
+    <!-- caret-color -->
+    <input type="text" value="caret-color & focus"
+        class="caret-red-500 focus:outline-red-500 focus:bg-sky-300 p-2 block mx-auto m-2 hover:bg-red-500">
+
+
+
+    <br><br><br><br>
+</body>
+
+</html>
